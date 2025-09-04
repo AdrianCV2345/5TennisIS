@@ -247,17 +247,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "25587be119fcc824eb6338b7b3ffb4b1caa27fe1",
     "author": "Adrian Claros",
     "commit": {
       "date": "2025-09-04T03:44:48.000Z",
       "message": "feat: Advantage para player 2.",
-      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/HEAD"
+      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/25587be119fcc824eb6338b7b3ffb4b1caa27fe1"
     },
     "stats": {
       "total": 14,
       "additions": 14,
       "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 95.24,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Claros",
+    "commit": {
+      "date": "2025-09-04T03:57:08.000Z",
+      "message": "feat: pagina web y presenter.",
+      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 19,
+      "deletions": 20,
       "date": "2025-09-04"
     },
     "coverage": 95.24,
