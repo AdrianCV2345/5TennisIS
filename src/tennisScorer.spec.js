@@ -90,4 +90,15 @@ describe("TennisScorer", () => {
     scorer.player2Scores();
     expect(scorer.showScore()).toEqual("Deuce");
   }); 
+  it("El jugador 1 tiene ventaja", () => {
+    const scorer = new TennisScorer();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player1Scores();
+    expect(scorer.showScore()).toEqual("Player 1 advantage");
+  });
 });

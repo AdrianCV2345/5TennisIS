@@ -30,7 +30,9 @@ class TennisScorer {
       if (this.player1Points === this.player2Points) {
         return "Deuce"; 
       } 
-    
+    if(this.player1Points === this.player2Points + 1) {
+        return "Player 1 advantage";
+      }
     }
 
     return `${this.getScore(this.player1Points)} - ${this.getScore(this.player2Points)}`;
