@@ -33,6 +33,9 @@ class TennisScorer {
     if(this.player1Points === this.player2Points + 1) {
         return "Player 1 advantage";
       }
+    if(this.player2Points === this.player1Points + 1) {
+        return "Player 2 advantage";
+      } 
     }
 
     return `${this.getScore(this.player1Points)} - ${this.getScore(this.player2Points)}`;
