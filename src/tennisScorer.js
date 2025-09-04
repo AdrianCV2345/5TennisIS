@@ -26,7 +26,12 @@ class TennisScorer {
       return "Player 2 wins";
     }
 
-   
+    if (this.player1Points >= 3 && this.player2Points >= 3) {
+      if (this.player1Points === this.player2Points) {
+        return "Deuce"; 
+      } 
+    
+    }
 
     return `${this.getScore(this.player1Points)} - ${this.getScore(this.player2Points)}`;
   }

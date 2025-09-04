@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "52cbad5ed4ad6f985a629bf4401865731fda63c5",
     "author": "Adrian Claros",
     "commit": {
       "date": "2025-09-04T03:21:41.000Z",
       "message": "refactori: Estructurando el codigo de una manera mas eficiente.",
-      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/HEAD"
+      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/52cbad5ed4ad6f985a629bf4401865731fda63c5"
     },
     "stats": {
       "total": 34,
@@ -205,6 +205,25 @@
     },
     "coverage": 92.86,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Claros",
+    "commit": {
+      "date": "2025-09-04T03:41:22.000Z",
+      "message": "test: mas pruebas de puntuacion. feat: se aniadio el deuce.",
+      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 31,
+      "deletions": 3,
+      "date": "2025-09-04"
+    },
+    "coverage": 94.12,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }

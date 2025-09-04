@@ -65,6 +65,29 @@ describe("TennisScorer", () => {
    scorer.player2Scores();
    expect (scorer.showScore()).toEqual("Player 2 wins");  
   });
-
- 
+  
+  it("El jugador 1 y el jugador 2 marcan 1 punto cada uno", () => {
+    const scorer = new TennisScorer();
+    scorer.player1Scores();
+    scorer.player2Scores();
+    expect(scorer.showScore()).toEqual("15 - 15");
+  });
+  it("El jugador 1 y el jugador 2 marcan 2 puntos cada uno", () => {
+    const scorer = new TennisScorer();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    expect(scorer.showScore()).toEqual("30 - 30");
+  });
+  it("El jugador 1 y el jugador 2 marcan 3 puntos cada uno", () => {
+    const scorer = new TennisScorer();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    expect(scorer.showScore()).toEqual("Deuce");
+  }); 
 });
