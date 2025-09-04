@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1dc4c13ca7e1ed0942dd9bde7aa495e88194076d",
     "author": "Adrian Claros",
     "commit": {
       "date": "2025-09-04T03:01:31.000Z",
       "message": "feat: el jugador dos consigue 3 puntos y el jugador 1 cero",
-      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/HEAD"
+      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/1dc4c13ca7e1ed0942dd9bde7aa495e88194076d"
     },
     "stats": {
       "total": 11,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Claros",
+    "commit": {
+      "date": "2025-09-04T03:03:32.000Z",
+      "message": "feat: el jugador dos gana la partida",
+      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
