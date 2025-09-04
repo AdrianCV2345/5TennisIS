@@ -2,34 +2,34 @@ class TennisScorer {
   constructor() {
     this.player1Points = 0;
     this.player2Points = 0;
+    this.scoreMap = ["Love", "15", "30", "40"]; 
   }
 
   player1Scores() {
     this.player1Points++;
   }
+
   player2Scores() {
     this.player2Points++;
   }
-  showScore() {
-    if (this.player1Points === 1) {
-      return "15 - Love";
-    } else if (this.player1Points === 2) {
-      return "30 - Love";
-    } else if (this.player1Points === 3) {
-      return "40 - Love";
-    } else if (this.player1Points >= 4) {
-      return "Player 1 wins";
-    } else if (this.player2Points === 1) {
-      return "Love - 15";
-    } else if (this.player2Points === 2) {
-      return "Love - 30";
-    } else if (this.player2Points === 3) {
-      return "Love - 40";
-    } else if (this.player2Points >= 4) {
-      return "Player 2 wins";
-    }
-    return "Love - Love";
+
+  getScore(playerPoints) {
+    if (playerPoints >= 4) return "Win"; 
+    return this.scoreMap[playerPoints] || "Love"; 
   }
 
+  showScore() {
+    if (this.player1Points >= 4 && this.player1Points - this.player2Points >= 2) {
+      return "Player 1 wins";
+    }
+    if (this.player2Points >= 4 && this.player2Points - this.player1Points >= 2) {
+      return "Player 2 wins";
+    }
+
+   
+
+    return `${this.getScore(this.player1Points)} - ${this.getScore(this.player2Points)}`;
+  }
 }
+
 export default TennisScorer;

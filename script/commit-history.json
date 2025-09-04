@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ab90c7c91576a1b00f554b38228b532020f08c55",
     "author": "Adrian Claros",
     "commit": {
       "date": "2025-09-04T03:03:32.000Z",
       "message": "feat: el jugador dos gana la partida",
-      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/HEAD"
+      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/ab90c7c91576a1b00f554b38228b532020f08c55"
     },
     "stats": {
       "total": 12,
@@ -185,6 +185,25 @@
       "date": "2025-09-04"
     },
     "coverage": 100,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Claros",
+    "commit": {
+      "date": "2025-09-04T03:21:41.000Z",
+      "message": "refactori: Estructurando el codigo de una manera mas eficiente.",
+      "url": "https://github.com/AdrianCV2345/5TennisIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 18,
+      "deletions": 16,
+      "date": "2025-09-04"
+    },
+    "coverage": 92.86,
     "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
